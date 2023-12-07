@@ -133,7 +133,7 @@ function App() {
           </div>
         </section>
         <section className='flex flex-col lg:flex-row justify-center items-center py-8 my-8 text-white' id='s2'>
-          <div className='w-full lg:w-5/12 mt-6 mb-12 lg:my-0 flex justify-center items-center'>
+          <div className='w-full lg:w-6/12 mt-6 mb-12 lg:my-0 flex justify-center items-center'>
             <img className='h-72 w-96' src='https://righturnhr.com/KV.jpg'/>
           </div>
           <div className='w-full lg:w-9/12 lg:w-7/12 flex justify-center items-center'>
