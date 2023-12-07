@@ -32,7 +32,7 @@ function App() {
   return (
     <body className='w-full flex flex-col justify-center text-sm'>
     <header className='w-full flex flex-col text-white  px-8 md:px-6'>
-      <nav className='w-full flex flex-row justify-center items-center lg:pt-0'>
+      <nav className='w-full flex flex-row justify-center lg:pt-0'>
         <div className='w-1/2 lg:w-3/12 flex items-start lg:items-center justify-center pt-8 lg:pt-6'>
           <div className='flex flex-col justify-center items-start'>
             <h1 className='text-3xl font-bold'>RIGHTURN</h1>
