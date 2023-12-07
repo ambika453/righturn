@@ -32,8 +32,8 @@ function App() {
   return (
     <body className='w-full flex flex-col justify-center text-sm'>
     <header className='w-full flex flex-col text-white  px-8 md:px-6'>
-      <nav className='w-full flex flex-row justify-center'>
-        <div className='w-1/2 lg:w-3/12 flex items-start lg:items-center justify-center pt-12 lg:pt-6'>
+      <nav className='w-full flex flex-row justify-center pt-4 lg:pt-0'>
+        <div className='w-1/2 lg:w-3/12 flex items-start lg:items-center justify-center pt-4 lg:pt-6'>
           <div className='flex flex-col justify-center items-start'>
             <h1 className='text-3xl font-bold'>RIGHTURN</h1>
             <h6 className='text-sm'>Human Resource Management</h6>
@@ -71,7 +71,7 @@ function App() {
               </ul>
         </div>
       </nav>
-      <section className='w-full flex flex-col md:flex-row items-center justify-center px-12 pb-20 pt-8 md:py-20'>
+      <section className='w-full flex flex-col md:flex-row items-center justify-center px-12 pb-20 pt-10 md:py-20'>
           <div className='w-full md:px-6 lg:px-0 sm:w-1/2 flex flex-col items-center justify-center py-4 sm:py-8 md:py-4'>
             <h2 className='w-full text-5xl pb-4'>HR SERVICES MADE</h2>
             <div className='w-full text-4xl lg:text-5xl py-4 lg:py-0'>
