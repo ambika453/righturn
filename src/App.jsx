@@ -138,7 +138,7 @@ function App() {
           </div>
           <div className='w-full lg:w-9/12 lg:w-7/12 flex justify-center items-center'>
             <div className='w-5/6 flex flex-col justify-center items-center lg:items-start'>
-              <h3 className='text-3xl font-medium pb-8'>Message from our Founder</h3>
+              <h3 className='text-3xl font-medium sm:pb-8 pb-12'>Message from our Founder</h3>
               <p className='leading-6 text-justify'>I started RighTurn with a mission to deliver performance oriented, economically viable, and technology enabled, holistic HR services to our partners around the world. The main business philosophy was “Building a great HR platform, with a Human Touch”. Talent is the most precious resource in any organisation and we at RightTurn, believe in ensuring they are empowered, nurtured and supported so that they deliver towards an organisation’s growth. Over the last 15 years in my professional journey, I have delivered on this vision, consistently and now, we are setting our sights on global expansion with new offerings, including virtual HR, Compliance & Inclusion, HRTech and other innovative services. It has been my endeavour to collaborate with different service providers to cater a seamless product portfolio to my clients, offering them an avenue for all round expansion.”</p>
               <h5 className='font-medium text-xl mt-4'>Krishnaveni Sumanth</h5>
               <h5 className='font-medium'>Founder and CEO, RighTurn</h5>
