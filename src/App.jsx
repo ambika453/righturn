@@ -33,7 +33,7 @@ function App() {
     <body className='w-full flex flex-col justify-center text-sm'>
     <header className='w-full flex flex-col text-white  px-8 md:px-6'>
       <nav className='w-full flex flex-row justify-center'>
-        <div className='w-1/2 lg:w-3/12 flex items-start lg:items-center justify-center pt-6'>
+        <div className='w-1/2 lg:w-3/12 flex items-start lg:items-center justify-center pt-4'>
           <div className='flex flex-col justify-center items-start'>
             <h1 className='text-3xl font-bold'>RIGHTURN</h1>
             <h6 className='text-sm'>Human Resource Management</h6>
@@ -71,9 +71,9 @@ function App() {
               </ul>
         </div>
       </nav>
-      <section className='w-full flex flex-col md:flex-row items-center justify-center px-12 md:pt-20 md:pb-12'>
-          <div className='w-full md:px-6 lg:px-0 sm:w-1/2 flex flex-col items-center justify-center py-14 sm:py-8 md:py-4'>
-            <h2 className='w-full text-5xl py-4'>HR SERVICES MADE</h2>
+      <section className='w-full flex flex-col md:flex-row items-center justify-center px-12 pb-20 pt-8 md:py-20'>
+          <div className='w-full md:px-6 lg:px-0 sm:w-1/2 flex flex-col items-center justify-center py-4 sm:py-8 md:py-4'>
+            <h2 className='w-full text-5xl pb-4'>HR SERVICES MADE</h2>
             <div className='w-full text-4xl lg:text-5xl py-4 lg:py-0'>
               <h2 className='fadeElement'>EASY</h2>
               <h2 className='fadeElement'>EFFECTIVE</h2>
@@ -96,15 +96,15 @@ function App() {
           <div className='flex flex-col items-start justify-center mb-4'>
             <div className='text-3xl font-bold pb-3 text-[#023047]'>Our Solutions</div>
           </div>
-          <div className='w-full flex flex-col md:flex-row items-center justify-center'>
+          <div className='w-full flex flex-col lg:flex-row items-center justify-center'>
             <div className='relative w-full h-96 border flex justify-center items-center' id='s2d1'>
               <div className='w-full h-96 absolute flex justify-center items-center bg-black opacity-50'>
               </div>
               <div className='h-80 w-4/6 flex flex-col justify-center items-center z-10'>
                     <h2 className='font-medium text-2xl pb-4'>Recruitment</h2>
                     <p className='text-justify py-2'>Find exciting jobs. Recruit best industry talents</p>
-                    <div className='w-2/3 md:w-full flex flex-col sm:flex-row justify-between items-center mt-4 font-medium'>
-                      <button className='border border-white rounded-2xl my-4 sm:my-0 py-2 px-4 button2'>Find Jobs</button>
+                    <div className='flex flex-col w-full lg:flex-row justify-between items-center mt-4 font-medium'>
+                      <button className='border border-white rounded-2xl my-4 lg:my-0 py-2 px-4 button2'>Find Jobs</button>
                       <button className='border border-white rounded-2xl py-2 px-4 button2'>Post Jobs</button>
                     </div>
               </div>
@@ -132,12 +132,12 @@ function App() {
               </div>
           </div>
         </section>
-        <section className='flex flex-col md:flex-row justify-center items-center py-8 my-8 text-white' id='s2'>
-          <div className='w-full md:w-5/12 mt-6 mb-12 md:my-0 flex justify-center items-center'>
+        <section className='flex flex-col lg:flex-row justify-center items-center py-8 my-8 text-white' id='s2'>
+          <div className='w-full lg:w-5/12 mt-6 mb-12 lg:my-0 flex justify-center items-center'>
             <img className='h-72 w-96' src='https://righturnhr.com/KV.jpg'/>
           </div>
-          <div className='w-full md:w-7/12 flex justify-center items-center'>
-            <div className='w-5/6 flex flex-col justify-center items-center md:items-start'>
+          <div className='w-full lg:w-9/12 lg:w-7/12 flex justify-center items-center'>
+            <div className='w-5/6 flex flex-col justify-center items-center lg:items-start'>
               <h3 className='text-3xl font-medium pb-8'>Message from our Founder</h3>
               <p className='leading-6 text-justify'>I started RighTurn with a mission to deliver performance oriented, economically viable, and technology enabled, holistic HR services to our partners around the world. The main business philosophy was “Building a great HR platform, with a Human Touch”. Talent is the most precious resource in any organisation and we at RightTurn, believe in ensuring they are empowered, nurtured and supported so that they deliver towards an organisation’s growth. Over the last 15 years in my professional journey, I have delivered on this vision, consistently and now, we are setting our sights on global expansion with new offerings, including virtual HR, Compliance & Inclusion, HRTech and other innovative services. It has been my endeavour to collaborate with different service providers to cater a seamless product portfolio to my clients, offering them an avenue for all round expansion.”</p>
               <h5 className='font-medium text-xl mt-4'>Krishnaveni Sumanth</h5>
