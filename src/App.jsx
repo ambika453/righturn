@@ -89,37 +89,37 @@ function App() {
                   </div>
                 </div>
               </div>
-            <div className='w-full h-96 flex justify-center items-center container'>
-              <div className='w-full h-96 flex justify-center items-center child bg-2'>
-                <div className='w-4/6 h-80 flex flex-col justify-center items-center content'>
-                      <h2 className='font-medium text-2xl pb-4'>Virtual HR</h2>
-                      <p className='text-justify py-2 leading-6'>We offer a complete life cycle of human resource management and development of customised HR solutions according to company’s needs.</p>
-                      <button className='py-2 border border-white font-medium rounded-2xl mt-4 px-4 button2'>
-                        Know More
-                      </button>
-                  </div>
-                </div>
-            </div>
-            <div className='w-full h-96 flex justify-center items-center container'>
-              <div className='w-full h-96 flex justify-center items-center child bg-3'>
-                <div className='w-4/6 h-80 flex flex-col justify-center items-center content'>
-                      <h2 className='font-medium text-2xl pb-4'>Compliance &amp; Inclusion</h2>
-                      <p className='text-justify py-2 leading-6'>Alongside our compliance partner, we ensure that your business is working within government regulations and that employee satisfaction is maintained.</p>
-                      <button className='py-2 border border-white font-medium rounded-2xl mt-4 px-4 button2'>
-                        Know More
-                      </button>
+              <div className='w-full h-96 flex justify-center items-center container'>
+                <div className='w-full h-96 flex justify-center items-center child bg-2'>
+                  <div className='w-4/6 h-80 flex flex-col justify-center items-center content'>
+                        <h2 className='font-medium text-2xl pb-4'>Virtual HR</h2>
+                        <p className='text-justify py-2 leading-6'>We offer a complete life cycle of human resource management and development of customised HR solutions according to company’s needs.</p>
+                        <button className='py-2 border border-white font-medium rounded-2xl mt-4 px-4 button2'>
+                          Know More
+                        </button>
                     </div>
+                  </div>
+              </div>
+              <div className='w-full h-96 flex justify-center items-center container'>
+                <div className='w-full h-96 flex justify-center items-center child bg-3'>
+                  <div className='w-4/6 h-80 flex flex-col justify-center items-center content'>
+                        <h2 className='font-medium text-2xl pb-4'>Compliance &amp; Inclusion</h2>
+                        <p className='text-justify py-2 leading-6'>Alongside our compliance partner, we ensure that your business is working within government regulations and that employee satisfaction is maintained.</p>
+                        <button className='py-2 border border-white font-medium rounded-2xl mt-4 px-4 button2'>
+                          Know More
+                        </button>
+                  </div>
                 </div>
               </div>
           </div>
         </section>
-        <section className='flex flex-col lg:flex-row justify-center items-center pt-8 pb-12 my-8 text-white' id='s2'>
-          <div className='w-full lg:w-6/12 mt-6 mb-12 lg:my-0 flex justify-center items-center'>
+        <section className='flex flex-col lg:flex-row justify-center items-center pt-8 pb-12 my-8 text-white px-12' id='s2'>
+          <div className='w-full lg:mr-12 lg:w-5/12 mt-6 mb-12 lg:my-0 flex justify-center items-center'>
             <img className='h-72 w-96' src='https://righturnhr.com/KV.jpg'/>
           </div>
-          <div className='w-full lg:w-9/12 lg:w-7/12 flex justify-center items-center lg:pb-0'>
-            <div className='w-5/6 flex flex-col justify-center items-center lg:items-start'>
-              <h3 className='text-3xl font-medium pb-4'>Message from our Founder</h3>
+          <div className='w-full lg:w-7/12 flex justify-center items-center lg:pb-0'>
+            <div className='w-full flex flex-col justify-center items-center lg:px-4 lg:items-start'>
+              <h3 className='text-3xl font-medium mb-4'>Message from our Founder</h3>
               <p className='leading-6 text-justify'>I started RighTurn with a mission to deliver performance oriented, economically viable, and technology enabled, holistic HR services to our partners around the world. The main business philosophy was “Building a great HR platform, with a Human Touch”. Talent is the most precious resource in any organisation and we at RightTurn, believe in ensuring they are empowered, nurtured and supported so that they deliver towards an organisation’s growth. Over the last 15 years in my professional journey, I have delivered on this vision, consistently and now, we are setting our sights on global expansion with new offerings, including virtual HR, Compliance & Inclusion, HRTech and other innovative services. It has been my endeavour to collaborate with different service providers to cater a seamless product portfolio to my clients, offering them an avenue for all round expansion.”</p>
               <h5 className='font-medium text-xl mt-4'>Krishnaveni Sumanth</h5>
               <h5 className='font-medium'>Founder and CEO, RighTurn</h5>
