@@ -34,13 +34,13 @@ function App() {
         </div>
         <div className='relative lg:hidden w-full flex flex-col pt-6 pb-2 justify-start items-end text-sm px-6 font-medium'>
             <div id='menu' className='w-4/12 flex justify-end cursor-pointer' onClick={handleMenu} >
-              {menu ? (<svg className='w-8 h-8' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="0" fill="none" width="24" height="24"></rect> <g> <path d="M4 19h16v-2H4v2zm16-6H4v2h16v-2zM4 9v2h16V9H4zm16-4H4v2h16V5z"></path> </g> </g></svg>) : 
+              {!menu ? (<svg className='w-8 h-8' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="0" fill="none" width="24" height="24"></rect> <g> <path d="M4 19h16v-2H4v2zm16-6H4v2h16v-2zM4 9v2h16V9H4zm16-4H4v2h16V5z"></path> </g> </g></svg>) : 
               (
                 <svg viewBox="0 0 16 16" className='h-3 w-3'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect id="icon-bound" fill="none"></rect> <polygon points="14.707,2.707 13.293,1.293 8,6.586 2.707,1.293 1.293,2.707 6.586,8 1.293,13.293 2.707,14.707 8,9.414 13.293,14.707 14.707,13.293 9.414,8 "></polygon> </g></svg>
               )
               }
             </div>
-            <ul className={`rounded px-4 w-full sm:w-5/12 h-40 flex justify-center items-around py-2 ${menu?'hidden':'block'}`}>
+            <ul className={`rounded px-4 w-full sm:w-5/12 h-40 flex justify-center items-around py-2 ${menu?'block':'hidden'}`}>
                 <div className='flex flex-col justify-start items-center'>
                     <li className='py-1'>Our Services</li>
                     <li className='py-1'>Jobs</li>
