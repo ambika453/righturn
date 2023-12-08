@@ -5,26 +5,6 @@ function App() {
 
   const [menu, setMenu] = useState(false)
 
-  function playAnimation() {
-    const elements = document.querySelectorAll(".fadeElement")
-    elements.forEach((element, index) => {
-      setTimeout(() => {
-        element.style.animationPlayState = "running"
-      }, index * 1000)
-    })
-
-    setTimeout(() => {
-      elements.forEach((element) => {
-        element.style.animationPlayState = "paused"
-      })
-      playAnimation()
-    }, elements.length * 1000)
-  }
-
-  useEffect(()=>{
-      playAnimation()
-  },[])
-
   const handleMenu = () => {
     setMenu(!menu)
   }
