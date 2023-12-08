@@ -32,7 +32,7 @@ header, #s2 {
   background-size: cover;
   position: relative;
   z-index: 1;
-  transition: all .5s;
+  transition: all 0.5s ease-in-out;
 }
 
 .container:before {
@@ -40,12 +40,13 @@ header, #s2 {
   z-index: 0;
   opacity: 0.5;
   background-color: black;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .container:hover .child,
 .container:focus .child {
   transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
 }
 
 .container:hover .child:before,
@@ -97,18 +98,21 @@ header, #s2 {
 
 .fadeElement {
   opacity: 0;
-  animation: fadeInOut 4s ease infinite;
-  animation-play-state: paused;
+  animation-play-state: running;
+}
+
+.fadeElement:nth-child(1){
+  animation: fadeInOut 6s ease-in-out alternate infinite;
 }
 
 .fadeElement:nth-child(2){
-  animation-delay: 2s;
+  animation: fadeInOut 6s ease-in-out alternate 1.5s infinite;
 }
 
 .fadeElement:nth-child(3){
-  animation-delay: 4s;
+  animation: fadeInOut 6s ease-in-out alternate 3s infinite;
 }
 
 .fadeElement:nth-child(4){
-  animation-delay: 6s;
+  animation: fadeInOut 6s ease-in-out alternate 4.5s infinite;
 }
