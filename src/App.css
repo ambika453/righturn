@@ -3,51 +3,91 @@ header, #s2 {
   background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
 }
 
-.button1:hover{
+.button1:hover, .button2:hover{
   background-color: white;
   color: #023047;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.button2:hover{
-  background-color: #1b2845;
-  border-color: #1b2845;
-  color: white;
-  transition: all 0.3s ease-in-out;
-}
-
-#s2d1 {
+.bg-1 {
   background-image: url(https://media.istockphoto.com/id/1402715678/photo/young-asian-businesswoman-and-interviewer-shaking-hands-in-modern-office-business-meeting.jpg?s=612x612&w=0&k=20&c=Bis220czh6rvKav-JU5Fd1UR5SSiJnJpHaA3aVIIcF0=);
-  background-size: cover;
-  background-position: center center;
 }
 
-#s2d2 {
+.bg-2 {
   background: url(https://img.freepik.com/premium-photo/business-team-have-brainstorming-board-room_101964-940.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-#s2d3 {
+.bg-3 {
   background: url(https://www.shutterstock.com/image-photo/multicultural-business-team-meeting-around-600nw-2269792089.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-#s2d1, #s2d2, #s2d3 {
-  transition: background-size 0.5s ease-in-out;
+.container {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
 
-#s2d1:hover, #s2d2:hover, #s2d3:hover {
-  background-size: 130%;
-  transition: background-size 0.5s ease-in-out;
-}
-
-#s2d1 div:first-child:hover, #s2d2 div:first-child:hover, #s2d3 div:first-child:hover{
+.child {
+  background-size: cover;
+  position: relative;
   z-index: 1;
+  transition: all .5s;
+}
+
+.container:before {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+  background-color: black;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.container:hover .child,
+.container:focus .child {
+  transform: scale(1.2);
+}
+
+.container:hover .child:before,
+.container:focus .child:before {
+  display: block;
+}
+
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
   background-color: #023047;
-  opacity: 0.8;
-  transition: all 0.5s ease-in-out;
+}
+
+.child:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  background-color: black;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  opacity: 1;
+  z-index: 2;
 }
 
 @keyframes fadeInOut {
