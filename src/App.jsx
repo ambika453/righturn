@@ -96,39 +96,40 @@ function App() {
           <div className='flex flex-col items-start justify-center mb-4'>
             <div className='text-3xl font-bold pb-3 text-[#023047]'>Our Solutions</div>
           </div>
-          <div className='w-full flex flex-col lg:flex-row items-center justify-center'>
-            <div className='relative w-full h-96 border flex justify-center items-center' id='s2d1'>
-              <div className='w-full h-96 absolute flex justify-center items-center bg-black opacity-50'>
+          <div className='relative w-full flex flex-col lg:flex-row items-center justify-center'>
+              <div className='w-full h-96 border flex justify-center items-center container'>
+                <div className='w-full h-96 absolute flex justify-center items-center child bg-1'>
+                  <div className='flex flex-col justify-center items-center content'>
+                        <h2 className='font-medium text-2xl pb-4'>Recruitment</h2>
+                        <p className='text-justify py-2'>Find exciting jobs. Recruit best industry talents</p>
+                        <div className='flex flex-col w-full lg:flex-row justify-between items-center mt-4 font-medium'>
+                          <button className='border border-white rounded-2xl my-4 lg:my-0 py-2 px-4 button2'>Find Jobs</button>
+                          <button className='border border-white rounded-2xl py-2 px-4 button2'>Post Jobs</button>
+                        </div>
+                  </div>
+                </div>
               </div>
-              <div className='h-80 w-4/6 flex flex-col justify-center items-center z-10'>
-                    <h2 className='font-medium text-2xl pb-4'>Recruitment</h2>
-                    <p className='text-justify py-2'>Find exciting jobs. Recruit best industry talents</p>
-                    <div className='flex flex-col w-full lg:flex-row justify-between items-center mt-4 font-medium'>
-                      <button className='border border-white rounded-2xl my-4 lg:my-0 py-2 px-4 button2'>Find Jobs</button>
-                      <button className='border border-white rounded-2xl py-2 px-4 button2'>Post Jobs</button>
-                    </div>
-              </div>
-            </div>
-            <div className='relative w-full h-96 flex justify-center items-center' id='s2d2'>
-              <div className='w-full h-96 absolute inset-0 flex justify-center items-center bg-black opacity-50'>
-              </div>
-              <div className='w-4/6 h-80 flex flex-col justify-center items-center z-10'>
-                    <h2 className='font-medium text-2xl pb-4'>Virtual HR</h2>
-                    <p className='text-justify py-2 leading-6'>We offer a complete life cycle of human resource management and development of customised HR solutions according to company’s needs.</p>
-                    <button className='py-2 border border-white bfont-medium rounded-2xl mt-4 px-4 button2'>
-                      Know More
-                    </button>
+            <div className='w-full h-96 flex justify-center items-center container'>
+              <div className='w-full h-96 flex justify-center items-center child bg-2'>
+                <div className='w-4/6 h-80 flex flex-col justify-center items-center content'>
+                      <h2 className='font-medium text-2xl pb-4'>Virtual HR</h2>
+                      <p className='text-justify py-2 leading-6'>We offer a complete life cycle of human resource management and development of customised HR solutions according to company’s needs.</p>
+                      <button className='py-2 border border-white font-medium rounded-2xl mt-4 px-4 button2'>
+                        Know More
+                      </button>
+                  </div>
                 </div>
             </div>
-            <div className='relative w-full h-96 flex justify-center items-center' id='s2d3'>
-              <div className='w-full h-96 absolute flex justify-center items-center bg-black opacity-50'></div>
-              <div className='w-4/6 h-80 flex flex-col justify-center items-center z-10'>
-                    <h2 className='font-medium text-2xl pb-4'>Compliance &amp; Inclusion</h2>
-                    <p className='text-justify py-2 leading-6'>Alongside our compliance partner, we ensure that your business is working within government regulations and that employee satisfaction is maintained.</p>
-                    <button className='py-2 border border-white font-medium rounded-2xl mt-4 px-4 button2'>
-                      Know More
-                    </button>
-                  </div>
+            <div className='w-full h-96 flex justify-center items-center container'>
+              <div className='w-full h-96 flex justify-center items-center child bg-3'>
+                <div className='w-4/6 h-80 flex flex-col justify-center items-center content'>
+                      <h2 className='font-medium text-2xl pb-4'>Compliance &amp; Inclusion</h2>
+                      <p className='text-justify py-2 leading-6'>Alongside our compliance partner, we ensure that your business is working within government regulations and that employee satisfaction is maintained.</p>
+                      <button className='py-2 border border-white font-medium rounded-2xl mt-4 px-4 button2'>
+                        Know More
+                      </button>
+                    </div>
+                </div>
               </div>
           </div>
         </section>
